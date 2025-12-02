@@ -1,10 +1,10 @@
 body{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .hero{
     background-color: #1F2937;
-    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -12,8 +12,7 @@ body{
 }
 
 .header {
-    
-    
+
     color: white;
     display: flex;
     justify-content: space-around;
@@ -24,6 +23,7 @@ body{
 }
 
 .header.logo{
+
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -104,7 +104,27 @@ button {
     max-width: 200px;
 }
 
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding: 64px;
+    background-color: #E5E7EB;
 
+}
+
+.quote-container .text{
+    font-size: 36px;
+    font-weight: 300; 
+}
+
+.quote-container .author{
+    font-weight: 600;
+    text-align: right;
+}
 
 
 
